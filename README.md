@@ -149,7 +149,7 @@ To send the state machine back to sleep is easy.
 This sends the state machine back to idle mode.
 
 You may also want to make the state machine wait some time in idle mode before transitioning to the next state. That can be 
-easyly acomplished doing this:
+easily acomplished doing this:
 
 ``` c++
   *this << &STATE(s2) << 5000;
