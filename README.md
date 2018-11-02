@@ -127,7 +127,7 @@ in the loop function you just call your machine state.
   (*myStateMachine)() // call it like this if you instantiated to a pointer.
  }
 ```
-#Changing States
+# Changing States
 
 The fun in dealing with state machines is that each time it is called it does a different thing. In order to control what it 
 will do, you have to change states. To change states is easy
