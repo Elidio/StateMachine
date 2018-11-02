@@ -32,9 +32,9 @@ or displaying data on a LCD. In fact, this library provides exactly zero functio
 First of all, you must create an state machine. A state machine is a class that inherits the magic sauce of this library.
 Doing so is easy.
 
-#include <StateMachine.h>
 
 ``` c++
+#include <StateMachine.h>
   class STATEMACHINE(MyStateMachine) {
   }
 ```
