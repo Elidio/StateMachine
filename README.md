@@ -114,8 +114,10 @@ That is all.
 
 To use your state machine you have to instantiate it. There are two ways of doing so:
 
+``` c++
 MyStateMachine myStateMachine(/*init parameters*/);
 MyStateMachine *myStateMachine = new MyStateMachine(/*init parameters*/);
+``` 
 
 You should do so on global space, so your state machines are accessible to the loop() function.
 
